@@ -56,13 +56,15 @@ Incoming requests hit **Nginx**, which then forwards traffic to multiple Python 
   docker compose version(verifies installation).
 ## 4️⃣ Clone the Repository
   git clone https://github.com/sunkaraseshunagasai/docker-compose-project.git
+  
   cd docker-compose-project
 ## 5️⃣ Build and Run the Application
   docker compose up --build -d
 ## ✅ Verify Load Balancing
    Open your browser and access:
    
-   http://<ec2-public-id>
+   http://EC2-PUBLIC-IP
+
 
 To check logs:
 
