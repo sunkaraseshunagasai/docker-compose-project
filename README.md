@@ -13,6 +13,8 @@ This project demonstrates how to:
 Incoming requests hit **Nginx**, which then forwards traffic to multiple Python applications using a **round-robin load balancing strategy**.
 ----------------
 ## 🏗️ Architecture
+<img width="1164" height="575" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/be99419c-c8b5-4628-8f5f-0e1b2a72d698" />
+
 ### Request Flow
 1. Client sends a request to the EC2 public IP on port **80**
 2. Request reaches **Nginx Load Balancer**
