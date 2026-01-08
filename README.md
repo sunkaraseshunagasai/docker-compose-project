@@ -62,7 +62,7 @@ Incoming requests hit **Nginx**, which then forwards traffic to multiple Python 
 ## ✅ Verify Load Balancing
    Open your browser and access:
    
-   http://<EC2-PUBLIC-IP>
+   http://<ec2-public-id>
 
 To check logs:
 
