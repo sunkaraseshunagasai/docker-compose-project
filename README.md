@@ -43,27 +43,25 @@ Incoming requests hit **Nginx**, which then forwards traffic to multiple Python 
 
 ## 🚀 Setup Instructions
 
-1️⃣ Install Docker
+## 1️⃣ Install Docker
   yum install docker -y
 
-2️⃣ Start and Enable Docker
+## 2️⃣ Start and Enable Docker
   systemctl start docker
   systemctl enable docker
   docker --version
-3️⃣ Install Docker Compose
+## 3️⃣ Install Docker Compose
   Install Docker Compose using the official installation script
   (The script file is available in this repository.)
   docker compose version(verifies installation).
-4️⃣ Clone the Repository
+## 4️⃣ Clone the Repository
   git clone <your-github-repo-url>
   cd <repository-folder-name>
-5️⃣ Build and Run the Application
+## 5️⃣ Build and Run the Application
   docker compose up --build -d
-✅ Verify Load Balancing
-
-Open your browser and access:
-
-http://<EC2-PUBLIC-IP>
+## ✅ Verify Load Balancing
+   Open your browser and access:
+   http://<EC2-PUBLIC-IP>
 
 To check logs:
 
